@@ -1,0 +1,48 @@
+:root {
+	--primary: #fff;
+	--secondary: #ccc;
+	--ternary: #272727;
+	--dark: #444444;
+}
+
+.text-grey {
+	color: grey;
+}
+.bg-green {
+	background-color: #088469;
+}
+.text-white {
+	color: white;
+}
+.btn-blue {
+	background-color: #97d0f4;
+}
+.paragraph {
+	margin: 4px;
+}
+.btn-30 {
+	width: 30%;
+}
+.view {
+	background-color: #97d0f4;
+	width: 30%;
+	color: white;
+	margin-left: auto;
+}
+body {
+	background: var(--primary);
+	color: var(--ternary);
+	font-size: 14px;
+	margin: 0;
+}
+
+.App {
+	text-align: center;
+}
+
+.App .pages {
+	margin-left: 1rem;
+}
+.btn:focus {
+	box-shadow: none;
+}
