@@ -25,7 +25,7 @@ function Profile() {
           </div>
         </div>
       </div>
-      <div className={moreInfoShow ? 'animated04 animatedFadeInUp fadeInUp card p-2 ms-3 w-100' : "animated06 animatedFadeInDown fadeInDown card p-2 ms-3 w-100"} style={{ minHeight: "300px" }}>
+      <div className={moreInfoShow ? 'animated04 animatedFadeInUp fadeInUp card p-2 ms-3 w-100' : "animated06 animatedFadeInDown fadeInDown card p-2 ms-3 w-100"} style={{ minHeight: "350px" }}>
         <div>
           <div className='d-flex justify-content-between align-items-center'>
             <Title title="SOSYAL MEDYA" style="mb-0" />
